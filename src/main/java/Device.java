@@ -1,26 +1,17 @@
-
-
-public class Computer {
-    private  int ssdSize;
-    private  String operationSystemName;
-    private  int ozuSize;
-    static int countComp;
+public abstract class Device {
+    protected   int ssdSize;
+    protected String operationSystemName;
+    protected   int ozuSize;
     boolean inclusion = false;
+    private   int summa;
 
-    public Computer(int ssdSize, String operationSystemName, int ozuSize) {
-        this.ssdSize = ssdSize;
-        this.operationSystemName = operationSystemName;
-        this.ozuSize = ozuSize;
-        countComp++;
 
+    public int getSumma() {
+        return summa;
     }
 
-    public  Computer(){countComp++;};
-
-    public  Computer(String operationSystemName, int ozuSize) {
-        this.operationSystemName = operationSystemName;
-        this.ozuSize = ozuSize;
-        countComp++;
+    public void setSumma(int summa) {
+        this.summa = summa;
     }
 
     public int getSsdSize() {
@@ -56,4 +47,14 @@ public class Computer {
         }
     }
 
+    @Override
+    public String toString() {
+        return "Device{" +
+                "ssdSize=" + ssdSize +
+                ", operationSystemName='" + operationSystemName + '\'' +
+                ", ozuSize=" + ozuSize +
+                ", inclusion=" + inclusion +
+                ", summa=" + summa +
+                '}';
+    }
 }
