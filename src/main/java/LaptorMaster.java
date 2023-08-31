@@ -1,3 +1,5 @@
+package main.java;
+
 public class LaptorMaster{
 
     public void fixComp(Device computer) throws DeviceIncorrectType {

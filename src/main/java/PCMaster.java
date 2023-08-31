@@ -1,3 +1,5 @@
+package main.java;
+
 public class PCMaster extends  Master {
 
     public void fixComp(Device computer) throws DeviceIncorrectType {

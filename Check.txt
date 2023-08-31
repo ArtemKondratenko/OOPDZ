@@ -1,0 +1,1 @@
+Device{ssdSize=600, operationSystemName='WD', ozuSize=6, inclusion=false, summa=0}

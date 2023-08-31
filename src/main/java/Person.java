@@ -1,3 +1,5 @@
+package main.java;
+
 public class Person {
     Device comp;
     private int money;

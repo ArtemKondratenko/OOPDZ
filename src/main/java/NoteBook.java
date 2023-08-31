@@ -1,3 +1,5 @@
+package main.java;
+
 public class NoteBook extends Device implements  Marching{
     private  int charQuanti;
     private String firmNoteBook;

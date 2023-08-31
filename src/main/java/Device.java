@@ -1,3 +1,5 @@
+package main.java;
+
 public abstract class Device {
     protected   int ssdSize;
     protected String operationSystemName;
@@ -46,6 +48,8 @@ public abstract class Device {
             System.out.println("копьютер выключен");
         }
     }
+
+
 
     @Override
     public String toString() {
